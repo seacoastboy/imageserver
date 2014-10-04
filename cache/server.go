@@ -10,7 +10,7 @@ import (
 
 // Server represents a Server with Cache
 type Server struct {
-	imageserver.Server
+	Server imageserver.Server
 	Cache        Cache
 	KeyGenerator KeyGenerator
 }
